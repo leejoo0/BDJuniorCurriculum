@@ -3,12 +3,13 @@
       xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../Quest02/naverHome.css">
     <!-- <meta http-equiv="refresh"
           content="5;URL=http://www.naver.com"> 5초뒤에 네이버로 이동-->
     <!-- TODO: 또 무엇이 필요할까요? -->
     <title>NAVER</title>  <!--title 추가 -->
 </head>
-<body style="text-align: center">
+<body style="text-align: center ; background-color: white">
 <header>
     <!-- TODO: 어디까지를 header로 보는 것이 좋을까요? -->
 
@@ -16,29 +17,29 @@
 
 <section class="main">
     <!-- TODO: main은 어떤 식으로 나눌 수 있을까요? -->
-    <div><span><button>qr 체크인</button><button>Npay</button><button>Mybox</button></span></div> <!--상단 버튼 부분-->
+    <div style="text-align: right"><span><button class="hbutton">qr 체크인</button><button class="hbutton">Npay</button><button class="hbutton">Mybox</button></span></div> <!--상단 버튼 부분-->
 
     <section>
-        <div>NAVER</div>
-        <div id="search">
-            <form>
-                <input type="search">
-                <button>음성검색</button>
-                <button>카메라</button>
-                <button>위치</button>
+        <div class="NAVER">NAVER</div>
+        <div >
+            <form class="search">
+                <input style="border: none; width: 70%;"   placeholder="검색어를 입력해주세요.">
+                <button><img class = "imgbutton" src="../../Quest02/img/SB_voice.PNG"></button>
+                <button><img class = "imgbutton" src="../../Quest02/img/SB_cam.PNG"></button>
+                <button><img class = "imgbutton" src="../../Quest02/img/SB_loc.PNG"></button>
             </form>
         </div>
     </section>
-    <div id="세부컨텐츠">
-        <ul>
-            <li>이미지 <span>뉴스판</span></li>
-            <li>이미지 <span>경제지표판</span></li>
-            <li>이미지 <span>연예판</span></li>
-            <li>이미지 <span>트랜드판</span></li>
-            <li>이미지 <span>메일</span></li>
-            <li>이미지 <span>카페</span></li>
-            <li>이미지 <span>블로그</span></li>
-            <li>이미지 <span></span></li>
+    <div >
+        <ul class="menuContent">
+            <li><img class = "imgbutton" src="../../Quest02/img/c1.PNG"> <span>뉴스판</span></li>
+            <li><img class = "imgbutton" src="../../Quest02/img/c1.PNG"> <span>경제지표판</span></li>
+            <li><img class = "imgbutton" src="../../Quest02/img/c1.PNG"> <span>연예판</span></li>
+            <li><img class = "imgbutton" src="../../Quest02/img/c1.PNG"> <span>트랜드판</span></li>
+            <li><img class = "imgbutton" src="../../Quest02/img/c1.PNG"> <span>메일</span></li>
+            <li><img class = "imgbutton" src="../../Quest02/img/c1.PNG"> <span>카페</span></li>
+            <li><img class = "imgbutton" src="../../Quest02/img/c1.PNG"> <span>블로그</span></li>
+            <li><img class = "imgbutton" src="../../Quest02/img/c1.PNG"> <span></span></li>
         </ul>
     </div>
     <div id="날씨미리보기">

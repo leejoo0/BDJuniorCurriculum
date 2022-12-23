@@ -26,12 +26,37 @@
 ## Checklist
 
 * CSS를 HTML에 적용하는 세 가지 방법은 무엇일까요?
+  * ```
+    Inline Style Sheet : HTML 태그에 style 속성에 코드를 넣는 방법
+    Internal Style Sheet : <style> 코드 안에 CSS 넣는 방법
+    Linking Style Sheet : CSS 파일을 만들고 HTML 문서와 연결하는 방법
   * 세 가지 방법 각각의 장단점은 무엇일까요?
+  * ```
+    Inline Style Sheet : 장점 - 개별 설정이 가능하다. 단점 - 꾸미는것에 한계가 있고 재사용이 불가능하다.
+    Internal Style Sheet : 문서 안에 여러 요소를 한번에 수정이 가능하지만 또다른 HTML 문서에는 적용 할 수 없다.
+    Linking Style Sheet : 여러 HTML 문서에 사용가능 하다. 
+    
 * CSS 규칙의 우선순위는 어떻게 결정될까요?
+  * ```
+    뒤에 나오는 css 우선순위가 높다.
+    !important > inline style attribute > id > class, 다른 attribute, 수도클래스(:first-child같은 것) > tag element, 수도엘레먼트(::before같은 것) 순으로 우선순위가 높다.
+    우선순위가 같다면 개수가 많은 css가 우선순위가 높다.
+    
 * CSS의 박스모델은 무엇일까요? 박스가 화면에서 차지하는 크기는 어떻게 결정될까요?
+  * ```
+    모든 HTML 요소는 박스 모양으로 구성된다. Padding, border, margin , content 로 구분한다
+    박스는 설정된 치수와 내용 등 콘텐츠 크기를 기반으로 결정 된다.순수하게 content 영역의 너비만을 포함한다.
+    실제 엘리먼트가 화면에서 차지하는 너비를 생각할 때는 padding과 border의 두께까지 고려해야한다.
 * `float` 속성은 왜 좋지 않을까요?
+  * ```
+    부모요소가 자식 요소의 크기를 반영하지 못한다, 부모요소의 높이가 초기화되어 사라진다.
 * Flexbox(Flexible box)와 CSS Grid의 차이와 장단점은 무엇일까요?
+  * ```
+    Flexbox : 수평, 수직 영역 중 하나의 방향으로만 레이아웃을 나눌 수 있음
+    Grid : 수평 수직을 동시에 영역을 나눌 수 있음
 * CSS의 비슷한 요소들을 어떤 식으로 정리할 수 있을까요?
+  * ``` 
+    선택자를 사용해서 정리.
 
 ## Quest
 

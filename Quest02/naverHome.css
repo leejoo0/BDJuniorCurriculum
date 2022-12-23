@@ -1,0 +1,48 @@
+@charset "UTF-8";
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.NAVER {
+    color: #1fa51f;
+    font-size: 60px;
+    font-style: normal;
+    font-family : "맑은 고딕";
+    font-weight : bold;
+}
+
+.hbutton {
+    border-radius : 50%;
+    border-color: aliceblue;
+    border: none;
+    padding: 5px;
+    size: 5px;
+}
+
+.imgbutton{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-style: none;
+}
+.search {
+    /*style="WIDTH: 60pt; HEIGHT: 60pt;*/
+    border: 1px solid #1fa51f;
+    margin: auto;
+    width: 600px;
+    height: 50px;
+    text-align: right;
+}
+
+.menuContent{
+    list-style:none;
+    display: grid;
+    padding: 0px 20px;
+    margin: auto;
+    text-align: left;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
