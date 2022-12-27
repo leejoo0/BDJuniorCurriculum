@@ -11,6 +11,7 @@
     font-style: normal;
     font-family : "맑은 고딕";
     font-weight : bold;
+    margin: 20px;
 }
 
 .hbutton {
@@ -19,6 +20,7 @@
     border: none;
     padding: 5px;
     size: 5px;
+    margin: 5px;
 }
 
 .imgbutton{
@@ -40,9 +42,16 @@
     list-style:none;
     display: grid;
     padding: 0px 20px;
-    margin: auto;
+    margin: 40px;
     text-align: left;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 
 }
+.menuContent2{
+    list-style:none;
+    display: grid;
+    padding: 0px 20px;
+    margin: 50px;
+    grid-template-columns: 1fr 1fr;
 
+}
